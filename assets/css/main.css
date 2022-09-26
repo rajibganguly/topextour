@@ -58,10 +58,11 @@ a, a:hover, a:focus {
     transition: all .3s ease-out;	
 }
 .logo-top-header {
-	padding: 5px 10px;
-    background: #fff;
-    border-radius: 25px;
-    box-shadow: 0 0 6px seagreen;
+	box-shadow: 0 0 6px seagreen;
+}
+.logo-top-header a {}
+.logo-top-header a img {
+	height: 72px;
 }
 .header-wrapper {
     position: fixed;
@@ -498,14 +499,11 @@ a.open-menu {
 	padding: 50px 0 20px 0;
 }
 .sitemap .logo {
-    background: #fff;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 20px;
-	margin-bottom: 30px;
+    
 }
 .sitemap .logo a {
-    display: flex;
+    width:200px;
+	height:200px;
 }
 .sitemap .logo a img {
     width: 100%;

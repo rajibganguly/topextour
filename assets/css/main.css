@@ -690,7 +690,7 @@ section.anamitra-body-content {
     width: 58%;
     border-radius: 5%;
     box-shadow: 0 0 7px darkgreen;
-	animation:f 3s infinite;
+	animation:f 10s infinite;
 }
 
 @keyframes f {
